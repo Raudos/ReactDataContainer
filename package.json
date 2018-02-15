@@ -1,6 +1,6 @@
 {
   "name": "react-data-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Container for your react components.",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,6 +17,8 @@
   "author": "Piotr Sklepiński",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
     "react": "^16.2.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
@@ -26,8 +28,6 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^3.10.0"
   }
 }
